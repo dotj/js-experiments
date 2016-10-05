@@ -11,6 +11,7 @@ body {
 p {
 	letter-spacing: 0.05em;
 	text-align: center;
+	vertical-align: center;
 }
 
 a {
@@ -26,6 +27,8 @@ a:hover {
 	background-color: #fff;
 	padding: 1em;
 	width: 90%;
+	vertical-align: center;
+	align: center;
 
 	position:absolute;
 	top:50%;
@@ -37,49 +40,6 @@ a:hover {
 	transform: translate(-50%, -50%);
 }
 
-/*
-.container {
-	background-color: #fff;
-	width: 66%;
-	position:absolute;
-	top:50%;
-	left:50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	padding-left: 2em;
-	padding-right: 2em;
-}*/
-
-
-
-.name {
-	text-transform: lowercase;
-	font-size: 1.6em;
-	font-weight: lighter;
-	letter-spacing: 5px;
-}
-
-.title {
-	background-color: ;
-	text-transform: uppercase;
-	font-size: 1.0em;
-	font-weight: normal;
-	letter-spacing: 0.5em;
-}
-
-/* formatting */
-
-.content {
-	font-size: 1.0em;
-	padding-bottom:1em;
-}
-
-.links {
-	font-size: 1em;
-}
 
 /*--- media queries ---------------------------------------------------------*/
 /* adapted from Skeleton V2.0.4, 2014, Dave Gamache / www.getskeleton.com ---*/
@@ -87,6 +47,7 @@ a:hover {
 /* Larger than mobile */
 @media (min-width: 400px) {
 	.container {
-		width: 400px;
+		width: 50%;
+		height: 50%;
 	}
 }
