@@ -48,6 +48,6 @@ a:hover {
 @media (min-width: 400px) {
 	.container {
 		width: 50%;
-		height: 50%;
+		height: 25%;
 	}
 }
