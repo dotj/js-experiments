@@ -4,9 +4,11 @@
 console.log('javascript sanity check')
 
 // color array
+// bl, tl,
+// br, tr
 var colours = [
-  ['#DAE2F8', '#D6A4A4'],
-  ['#D6A4A4', '#DAE2F8']
+  ['#1b3482', '#e2acb8'],
+  ['#3f3589', '#5d8daa']
 ];
 
 // the main show
